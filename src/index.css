@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.container{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.right-content{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.main-title,
+.education-title,
+.personal-title,
+.interes-title,
+.skills-title{
+  font-size: 25px;
+}
+
+.left-column-content{
+  background-color: rgb(121, 188, 227);
+}
+
+.left-content-info{
+  margin: 20px;
+}
+
+.left-content-info{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.wrapper-phone,
+.wrapper-email,
+.wrapper-addres,
+.wrapper-place-of-birth{
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.wrapper-phone img,
+.wrapper-email img,
+.wrapper-addres img,
+.wrapper-place-of-birth img {
+  height: 23px;
+}
+
+.wrapper-phone div,
+.wrapper-email div,
+.wrapper-addres div,
+.wrapper-place-of-birth div{
+  display: flex;
+  flex-direction: column;
+}
+
+.right-column-content{
+  margin-left: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+.left-content{
+  /* max-height: 700px;
+  overflow-y: scroll; */
+  margin-right: 73px;
+}
+
+.name{
+  font-weight: 600;
+  font-family: 'Roboto';
+  font-size: 32px;
+}
+
+.about{
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+  padding-bottom: 23px;
+  padding-top: 23px;
+  text-align: -webkit-left;
+  word-wrap: break-word;
+}
+.show-photo{
+  margin: 14px auto;
+  max-width: 180px;
+  max-height: 180px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+
+}
+
+.show-photo img{
+  width: 170px;
+  height: 170px;
+  border-radius: 100%;
+  margin: 5px;
+}
+
+.textarea-about{
+  height: 150px;
+}
+
+.count-world{
+  display: flex;
+  justify-content: end;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.start-end-education{
+  margin-top: 10px;
+}
+
+.input-education, .input-about{
+  margin-top: 20px;
+  border-top: .3px solid gray;
+  padding-top: 15px;
+}
+
+/* .education{
+  font-family: 'Roboto';
+  text-align: left;
+  font-weight: 500;
+  font-size: 18px;
+} */
+
+.title-education{
+  display: flex;
+  font-weight: 700;
+}
+
+.education{
+  display: flex;
+  font-weight: 600;
+}
+.col-university{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.start-education, .end-education{
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.add-new-education,
+.add-new-experience-button,
+.rem-new-education,
+.add-new-skills{
+  margin: 13px auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 356px;
+}
+
+.studyuing{
+  margin-bottom: 15px;
+}
+
+.col-education{
+  display: flex;
+  justify-content: space-between;
+}
+
+.year-start-end{
+  display: flex;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.year-start-end div{
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.educationLevel{
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+}
+
+.cherta{
+  width: 100%;
+  height: 3px;
+  color: red;
+}
+
+.col-select-birthday select{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+}
+
+.show-addition-info{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.show-addition-info p {
+  border-top: 1px solid gray;
+}
+
+.wrapper-buttons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button-council,
+.btn-show-block{
+  display: flex;
+  margin-bottom: 14px;
+  width: auto;
+  height: 25px;
+  font-size: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+.button-council-experience{
+  margin-left: 12px;
+}
+
+.model-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.model-header h1 {
+  font-size: 28px;
+}
+
+.modal-content{
+  padding: 10px;
+}
+
+.close{
+  display: flex;
+  height: 30px;
+  width: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-overlay{
+  position: absolute;
+  width: 600px;
+  top: 0;
+  left: 34%;
+}
+
+.content-council ul{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.title-interes,
+.title-skills{
+  border-top: 1px solid gray;
+}
+
+.interes-info,
+.skills-info,
+.info-personal{
+  border-top: 1px solid gray;
+  padding-top: 15px;
+}
